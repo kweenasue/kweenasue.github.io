@@ -27,10 +27,6 @@ body {
 	width: 200px;
 }
 
-.navigation.div:hover {
-	background: yellow;
-}
-
 .button {
 	font-family: 'Raleway';
 	border: 0px;
@@ -40,15 +36,14 @@ body {
 	text-align: center;
 	width: 150px;
 	height: 30px;
-	border-radius: 1px;
-	opacity: .7;
+	border-radius: 2px;
 	font-size: 18px;
 	line-height: 30px;
 }
 
 .button:hover {
-	background: lightcyan;
-	color: lightblue;
+	background: lightcoral;
+	color: white;
 }
 
 .navigation {
@@ -77,6 +72,7 @@ body {
 	font-family: 'raleway';
 	color: white;
 	margin: 0 auto;
+	margin-top: 50px;
 	display: block; 
 }
 
@@ -85,6 +81,8 @@ body {
 	margin-top: 10px;
 	background-color: lightblue;
 	height: 310px;
+	display: inline-block; 
+	float: right;
 }
 
 #self {
@@ -95,17 +93,6 @@ body {
 	float: left;
 }
 
-#intro {
-	float: right;
-	display: inline-block;
-	margin-top: 70px;
-	margin-right: 600px;
-	font-family: 'Raleway';
-	font-weight: 700;
-	font-size: 20px;\
-	color: white;
-}
-
 #text {
 	font-family: 'Raleway';
 	font-weight: 500;
@@ -113,5 +100,6 @@ body {
 	margin-left: 50px;
 	margin-top: 30px;
 	color: white;
-
+	float: right;
+	position: absolute;
 }
