@@ -32,12 +32,14 @@ body {
 	font-size: 16px;
 	position: relative;
 	float: right;
+	cursor: pointer;
 }
 
 .button:hover {
 	background: white;
 	color: lightblue;
 	opacity: .7;
+	cursor: hand;
 }
 
 .navigation {
@@ -79,7 +81,7 @@ body {
 	margin-right: 600px;
 	font-family: 'Raleway';
 	font-weight: 700;
-	font-size: 20px;\
+	font-size: 20px;
 	color: white;
 }
 
