@@ -14,15 +14,6 @@ $(document).ready(function() {
 	$('#contact').click(function() {
 		window.location.href = 'contact.html';
 	});
-
-	window.onscroll = function() {
-		if ($('body').scrollTop() >= 100) {
-			$('#content').fadeOut();
-		}
-		else {
-			$('#content').fadeIn();
-		}
-	};
 });
 
 // window.location.href = 'anotherpage.html';
